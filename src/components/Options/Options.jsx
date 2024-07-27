@@ -1,6 +1,8 @@
+import css from './Options.module.css';
+
 const Options = ({ updateFeedback, totalFeedback, resetFeedback }) => {
   return (
-    <>
+    <div className={css.buttonContainer}>
       <button type="button" onClick={() => updateFeedback('good')}>
         Good
       </button>
@@ -15,7 +17,7 @@ const Options = ({ updateFeedback, totalFeedback, resetFeedback }) => {
           Reset
         </button>
       )}
-    </>
+    </div>
   );
 };
 

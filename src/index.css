@@ -13,6 +13,17 @@ h1 {
   line-height: 1.1;
 }
 
+li {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 4px;
+}
+
 button {
   border-radius: 2px;
   border: 1px solid;
